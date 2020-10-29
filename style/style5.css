@@ -1,0 +1,100 @@
+html { }
+body { 
+	height:100%;
+	font-family:Arial, sans-serif ; 
+	color:white;
+	background-color:#ddd;
+	background-image: url("../images/background.jpg");	
+	margin : 0px; 
+	padding : 0px; 
+	text-align:center;	
+	
+}
+a {color:white; }
+
+
+/***************************************************************/
+/* header */
+/***************************************************************/
+.header { 
+	margin-left : auto;
+	margin-right : auto;
+  	background-color:#815D44; 
+	color:#fff;
+	top:0;
+	left:0;
+	height:100px;
+	padding:10px;
+	width: 960px;
+	text-align:left;
+	font-style:italic;
+}
+
+/***************************************************************/
+/* menu */
+/***************************************************************/
+.nav { 
+	background-color:#836C69;
+	padding:10px;
+	width: 960px;
+	text-align:left;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius: 0px 0px 5px 5px;
+}
+.nav ul { margin:0; padding:0; list-style:none;  }
+.nav li { display:inline-block; position:relative; top:0; left:0; }
+.nav li ul { position:absolute;width:200%;
+font-size:smaller; 
+top:50px;
+left:0;
+background-color:#836C69;
+display:none; }
+.nav li ul li { display:block;  }
+.nav li:hover ul { display:block; }
+.nav a {color:white; text-decoration:none; 
+	padding:1em 2em;
+	display:block; 
+	transition:0.5s; 
+	 }
+.nav a:hover, .nav a:focus { background-color:#9ACD32; transition:0s; }
+.nav a:active { background-color:#2E8B57; transition:0s; }
+
+
+/***************************************************************/
+/* main : corps principal
+/***************************************************************/
+.main {
+	width: 960px;
+	text-align:center;
+	margin-left : auto;
+	margin-right : auto;
+	padding:10px;
+	border-radius: 25px;
+/*	top:50%; */
+	
+}
+a.main {
+	color:#9ACD32;
+}
+
+.connexion {
+	text-align:center;
+}
+		
+
+
+
+/***************************************************************/
+/* footer */
+/***************************************************************/
+.footer { 
+	background-color:#815D44; 
+	color:#fff;	 
+	text-align:right;
+	padding:10px;
+	width: 960px;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius: 5px 5px 25px 25px;
+}

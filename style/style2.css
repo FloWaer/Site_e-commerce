@@ -1,0 +1,155 @@
+html { }
+body { 
+	font-family:Arial, sans-serif ; 
+	color:white;
+	background-color:#ddd;
+	background-image: url("../images/background.jpg");	
+	margin : 0px; 
+	padding : 0px; 	
+}
+a {color:white; }
+
+/***************************************************************/
+/* header */
+/***************************************************************/
+.header { 
+	margin-left : auto;
+	margin-right : auto;
+  	background-color:#815D44; 
+	color:#fff;
+	top:0;
+	left:0;
+	height:100px;
+	padding:10px;
+	width: 960px;
+	text-align:left;
+	font-style:italic;
+}
+
+/***************************************************************/
+/* menu */
+/***************************************************************/
+.nav { 
+	background-color:#836C69;
+	padding:10px;
+	width: 960px;
+	text-align:left;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius: 0px 0px 25px 25px;
+}
+.nav ul { margin:0; padding:0; list-style:none;  }
+.nav li { display:inline-block; position:relative; top:0; left:0; }
+.nav li ul { position:absolute;width:200%;
+font-size:smaller; 
+top:50px;
+left:0;
+background-color:#836C69;
+display:none; }
+.nav li ul li { display:block;  }
+.nav li:hover ul { display:block; }
+.nav a {color:white; text-decoration:none; 
+	padding:1em 2em;
+	display:block; 
+	transition:0.5s; 
+	 }
+.nav a:hover, .nav a:focus { background-color:#9ACD32; transition:0s; }
+.nava:active { background-color:#2E8B57; transition:0s; }
+
+
+/***************************************************************/
+/* main : corps principal
+/***************************************************************/
+#main {
+	width:960px;
+	/* height:100%; */
+	margin-left : auto;
+	margin-right : auto;
+	background-color:#815D44;
+	color:#fff;
+	padding:10px;	
+	border-radius: 25px;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+	
+#logo_biere{
+	margin-left: 360px;	
+	width:100px;
+/*	position:relative;*/
+	left:360px;
+	}
+
+	/* ARTICLE */
+	
+	#article1{
+		text-align: left;
+		margin-right: 300px;
+		margin-bottom: 50px;
+	}
+	#article1 hr {
+		width:660px;
+	}
+	#article1 p {
+		text-align: justify;
+	}
+	
+	#article2{
+		text-align: right;
+		margin-left: 300px;
+		margin-bottom: 50px;
+	}
+	#article2 hr {
+		width:660px;
+	}
+	#article2 p {		
+		text-align: justify;
+	}	
+	#article2 ul {		
+		text-align: left;
+	}	
+	#article3{
+		text-align: left;
+		margin-right: 300px;
+		margin-bottom: 50px;
+	}
+	#article3 hr {
+		width:660px;
+	}
+	#article3 p {
+		text-align: justify;
+	}
+	
+	#article4{
+		text-align: right;
+	}
+	#article4 hr {
+		width:660px;
+	}	
+	#article4 ul {
+		text-align: left;
+	}	
+.tab_loc {
+	margin-left:400px;
+	}	
+.tab_loc img {
+	width:200px;
+	height:200px;
+	}	
+.tab_loc_adr th {
+		text-align: right;
+		vertical-align: top;		
+	}		
+/***************************************************************/
+/* footer */
+/***************************************************************/
+.footer { 
+	background-color:#815D44; 
+	color:#fff;  
+	text-align:right;
+	padding:10px;
+	width: 960px;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius: 25px 25px 0px 0px;
+}
